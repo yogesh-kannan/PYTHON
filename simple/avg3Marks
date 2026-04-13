@@ -1,0 +1,7 @@
+m1=int(input("Enter Mark1 :"))
+m2=int(input("Enter mark2 :"))
+m3=int(input("Enter mark3 :"))
+if 0<=m1<=100 and 0<=m2<=100 and 0<=m3<=100:
+   print("Total Marks : ",m1+m2+m3,"\nAverage Marks : ",(m1+m2+m3)/3.0,"\n")
+else:
+   print("Invalid input\n")
